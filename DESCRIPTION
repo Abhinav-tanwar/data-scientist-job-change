@@ -1,0 +1,7 @@
+Package: datascientistjobchange
+Title: Data Scientist Job-Change Analysis
+Version: 1.0.0
+Authors@R: person("Abhinav", "Tanwar", role = c("aut", "cre"), email = "abhinav.t@careeritjob.com")
+Description: Retrospective job-change intent analysis with training-only preprocessing and sampling.
+License: file LICENSE
+Imports: MASS, jsonlite
