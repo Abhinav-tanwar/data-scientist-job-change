@@ -1,0 +1,19 @@
+---
+title: "Data Scientist Job-Change Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+Retrospective job-change intent analysis with training-only preprocessing and sampling.
+
+Run `Rscript scripts/run.R` before rendering. This report displays newly calculated results.
+
+```{r}
+metrics <- jsonlite::fromJSON("results/metrics.json",simplifyVector=FALSE)
+str(metrics)
+```
+
+See the README and data/README.md for data provenance and limitations.

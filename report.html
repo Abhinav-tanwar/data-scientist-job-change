@@ -1,0 +1,78 @@
+<!doctype html><meta charset="utf-8"><title>data-scientist-job-change</title><style>body{font:17px system-ui;max-width:980px;margin:50px auto;padding:20px;color:#17283b}pre{background:#edf2f7;padding:24px;overflow:auto}img{max-width:100%}</style><h1>Data Scientist Job-Change Analysis</h1><p>Executed R analysis. See README for methodology, provenance, and limitations.</p><h2>Measured results</h2><pre>{
+  &quot;scope&quot;: &quot;city_114; retrospective job-change intent&quot;,
+  &quot;rows&quot;: 1336,
+  &quot;train_rows&quot;: 1068,
+  &quot;test_rows&quot;: 268,
+  &quot;test_positive&quot;: 27,
+  &quot;majority_accuracy&quot;: 0.8992537313433,
+  &quot;positive_class&quot;: &quot;1 = recorded job-change intent&quot;,
+  &quot;predictors&quot;: 51,
+  &quot;LDA_original&quot;: {
+    &quot;accuracy&quot;: 0.8955223880597,
+    &quot;confusion&quot;: [
+      [
+        240,
+        1
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    &quot;recall&quot;: 0,
+    &quot;precision&quot;: 0,
+    &quot;balanced_accuracy&quot;: 0.4979253112033,
+    &quot;roc_auc&quot;: 0.5812202243738
+  },
+  &quot;Logistic_original&quot;: {
+    &quot;accuracy&quot;: 0.8992537313433,
+    &quot;confusion&quot;: [
+      [
+        241,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    &quot;recall&quot;: 0,
+    &quot;precision&quot;: 0,
+    &quot;balanced_accuracy&quot;: 0.5,
+    &quot;roc_auc&quot;: 0.5749193176579
+  },
+  &quot;LDA_oversampled&quot;: {
+    &quot;accuracy&quot;: 0.634328358209,
+    &quot;confusion&quot;: [
+      [
+        156,
+        85
+      ],
+      [
+        13,
+        14
+      ]
+    ],
+    &quot;recall&quot;: 0.5185185185185,
+    &quot;precision&quot;: 0.1414141414141,
+    &quot;balanced_accuracy&quot;: 0.5829107115414,
+    &quot;roc_auc&quot;: 0.6045796834179
+  },
+  &quot;Logistic_oversampled&quot;: {
+    &quot;accuracy&quot;: 0.6417910447761,
+    &quot;confusion&quot;: [
+      [
+        158,
+        83
+      ],
+      [
+        13,
+        14
+      ]
+    ],
+    &quot;recall&quot;: 0.5185185185185,
+    &quot;precision&quot;: 0.1443298969072,
+    &quot;balanced_accuracy&quot;: 0.5870600891348,
+    &quot;roc_auc&quot;: 0.6058091286307
+  }
+}</pre>
